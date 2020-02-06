@@ -41,6 +41,21 @@ body {
   font-size: 20px;
 }
 
+.btn-primary {
+  background-color: white;
+  color: #b11c26;
+  border: 2px solid #d8d2c3;
+  border-radius: 20px;
+  padding: 15px 25px;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  background-color: #b11c26;
+  color: white;
+  border-radius: 20px;
+}
+
 .container {
   width: 900px;
   margin: auto;
