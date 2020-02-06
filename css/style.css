@@ -1,0 +1,77 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+body {
+  margin: 0;
+}
+
+.banner {
+  background-image: url("https://www.garagenanni.be/images/easyblog_articles/14/b2ap3_large_cannes_remonte_le_temps_avec_la_nouvelle_srrie_sprciale_fiat_500_prrsentre_a_loccasion_du_60e_anniversaire_10_2017.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cards {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  height: 100px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
